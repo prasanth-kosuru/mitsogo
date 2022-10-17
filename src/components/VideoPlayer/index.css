@@ -1,0 +1,98 @@
+.player-container{
+    height:343px;
+    width:586px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 46px;
+    margin-top: 40px;
+    
+}
+
+.shrink-player-container{
+    height:343px;
+    width:490px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 46px;
+    margin-top: 40px;
+}
+
+.product{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.p-video{
+    width:106px;
+    height:23px;
+    font-size: 18px;
+    color:#4D4F5C;
+    font-family:"Source Sans Pro";
+    margin-left:25px;
+    margin-top: 18px;
+
+}
+
+.threedots-2{
+    width:24px;
+    height:24px;
+    font-size: 18px;
+    color:#4D4F5C;
+    font-family:"Source Sans Pro";
+    margin-right:25px;
+    margin-top: 18px;
+}
+
+.react-player{
+    margin: 25px;
+    margin-top: 0px;
+    border-radius: 20px;
+    position: relative;
+  margin-left: 30px;
+  border-radius: 6px;
+  overflow: hidden;
+  
+ 
+}
+
+@media screen and (max-device-width: 375px) and (orientation: portrait){
+    .player-container{
+        height:257px;
+        width:335px;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        margin-left: 20px;
+   margin-bottom: 24px;
+   margin-right: 20px;
+   margin-top: 0px;
+   padding-left: -10px;
+    }
+
+    .player-wrapper{
+        height:auto;
+        width: auto;
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+
+    .main-player-wrapper{
+        display: none;
+    }
+}
+
+
+
+@media screen and (min-device-width: 376px){
+    .main-player-wrapper{
+        height: auto;
+        width: auto;
+    }
+    .player-wrapper{
+        display:none;
+    }
+}
+
+.react-player-1{
+    display: none;
+}

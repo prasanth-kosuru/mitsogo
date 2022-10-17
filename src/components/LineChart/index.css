@@ -1,0 +1,56 @@
+.linechart-style{
+    height:443px;
+    width:586px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    background-color: #FFFFFF;
+    padding:25px;
+    margin-left: 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-device-width: 375px) and (orientation: portrait){
+    .linechart-style{
+        height:443px;
+        width:335px;
+        display:flex;
+        flex-direction: column;
+       
+     
+        background-color:#FFFFFF;
+      
+        
+        border-radius: 10px;
+        margin-left: 20px;
+        margin-bottom: 24px;
+        margin-right: 20px;
+        margin-top: 0px;
+    }
+}
+
+.shrink-linechart-style{
+    height:443px;
+    width:490px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+    background-color: #FFFFFF;
+    padding:25px;
+    margin-left: 40px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.mainlinechart-style{
+    margin-top: 40px;
+}
+
+.linechart-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:-50px;
+}

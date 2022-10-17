@@ -1,0 +1,263 @@
+.main-profile-container{
+    background-color: #FFFFFF;
+    height:588px;
+    width:586px;
+    border-radius: 10px;
+    margin-left: 46px;   
+}
+
+@media screen and (max-device-width: 375px) and (orientation: portrait){
+    .main-profile-container{
+        background-color: #FFFFFF;
+        height:588px;
+        width:335px;
+        border-radius: 10px; 
+        margin: 20px;  
+        margin-top: 0px;  
+    }
+    
+    .pro-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -220px;
+    }
+
+    .desktop-view{
+        display:none;
+    }
+
+    .mobile-view{
+        display:flex;
+       flex-direction: column;
+    }
+    
+   .mobile-usercard{
+    display: flex;
+    flex-direction: row;
+   }
+    
+   .username-mobile{
+   
+    font-size: 16px;
+    font-family: "Source Sans Pro";
+    font-weight: bold;
+    
+    color:#4D4F5C;
+    margin-top:2px;
+   
+    font-size: 14px;
+    font-family: "Source Sans Pro";
+    font-weight: bold;
+    opacity: 100%;
+    color:#4D4F5C;
+ 
+   margin-left: 20px;
+   margin-bottom:0px;
+  
+   }
+
+   .country-mobile{
+    
+    font-size: 12px;
+    font-family: "Source Sans Pro"; 
+    opacity: 50%;
+    color:#4D4F5C;
+    margin-top: 10px;
+    margin-left:20px;
+    
+    
+   }
+   .contact-mobile{
+    font-size: 12px;
+    font-family: "Source Sans Pro"; 
+    opacity: 50%;
+    color:#4D4F5C;
+    margin-top: 29px;
+    margin-left: 60px;
+   }
+
+   .user-profile-mobile{
+    
+        height: 50px;
+        width:50px;
+        border-radius: 50px;
+        margin-left: 10px;
+    
+   }
+    
+}
+
+
+
+.shrink-main-profile-container{
+    background-color: #FFFFFF;
+    height:588px;
+    width:490px;
+    border-radius: 10px;
+    margin-left: 46px;   
+}
+
+.pro-container{
+    height: 96px;
+    width: 96px;
+    border-radius: 50px;
+    margin-top: 40px;
+    margin-left: 245px;
+}
+.pro-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.nick{
+    width: 140px;
+    height: 23px;
+    margin-top: 20px;
+    font-family: "Source Sans pro";
+    font-weight: bold;
+    margin-left: 223px;
+    color: #4D4F5C;
+    margin-bottom: 0px;
+   
+}
+
+.states{
+color:#43425D;
+opacity: 50%;
+font-family: "Source Sans pro";
+font-size: 14px;
+height:18px;
+width:78px;
+margin-left: 254px;
+margin-top:7px;
+margin-bottom:0px;
+
+}
+
+.pk{
+    height:22px;
+    width:133px;
+    margin-left: 227px;
+    margin-top: 17px;
+    margin-bottom: 0px;
+}
+
+.other{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.o-user{
+    height:24px;
+    width:114px;
+    font-family: "Segoe UI";
+    font-size: 18px;
+    color:#4D4F5C;
+    opacity: 100%;
+    margin-top:55px;
+    margin-left:25px;
+    
+}
+.threedots{
+    height: 24px;
+    width:24px;
+    margin-right:65px;
+    margin-top:55px;
+}
+
+.user-card{
+    height: 50px;
+    width:536px;
+    margin-left: 25px;
+    display:flex;
+    flex-direction: row;
+    margin-top: 15px;
+    
+}
+
+.shrink-user-card{
+    height: 50px;
+    width:490px;
+    margin-left: 25px;
+    display:flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.user-profile{
+    height: 50px;
+    width:50px;
+    border-radius: 50px;
+}
+
+.username{
+    height:20px;
+    width:100px;
+    font-size: 16px;
+    font-family: "Source Sans Pro";
+    font-weight: bold;
+    opacity: 100%;
+    color:#4D4F5C;
+    margin-top:2px;
+    margin-left:39px;
+    margin-bottom: 0px;
+
+}
+
+.country{
+    height:18px;
+    width:78px;
+    font-size: 14px;
+    font-family: "Source Sans Pro"; 
+    opacity: 50%;
+    color:#4D4F5C;
+    margin-top: 6px;
+    margin-left:39px;
+}
+
+.contact{
+    font-size: 14px;
+    height: 18px;
+    width: 118px;
+    color:#43425D;
+    opacity: 50%;
+    font-family: "Source Sans Pro"; 
+    margin-top: 28px;
+    margin-left: 200px;
+    margin-right: 40px;
+}
+
+.shrink-contact{
+    font-size: 14px;
+    height: 18px;
+    width: 118px;
+    color:#43425D;
+    opacity: 50%;
+    font-family: "Source Sans Pro"; 
+    margin-top: 28px;
+    margin-left: 140px;
+}
+
+.social-media-icons{
+    
+    height: 22px;
+  width: 120px;
+  background: url('../../Images/icons.gif') -270px 0px;
+}
+
+.threedots-icon{
+    height: 24px;
+    width:24px;
+    background: url('../../Images/icons.gif') -140px -35px;
+}
+
+
+@media screen and (min-device-width: 376px){
+    .mobile-view{
+        display:none;
+    }
+}
